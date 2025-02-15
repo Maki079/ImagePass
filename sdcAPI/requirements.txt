@@ -1,0 +1,6 @@
+#pip install Flask
+#pip install --upgrade diffusers[torch]
+#pip install transformers
+#pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+#pip install pymongo
+#pip install celery pymongo

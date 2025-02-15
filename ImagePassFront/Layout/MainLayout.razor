@@ -1,0 +1,38 @@
+﻿@inherits LayoutComponentBase
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#">
+            <img src="/imagepass-logo-32.png" alt="Logo" width="32" height="32" class="d-inline-block align-text-top">
+            ImagePass Generator
+        </a>
+
+        <!-- Toggler/collapsible Button for mobile views -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/imagepass">ImagePass</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/checker">Checker</a>
+                </li>
+            </ul>
+
+            <!-- Report issue button -->
+            <form class="d-flex">
+                <a href="mailto:s23249@pjwstk.edu.pl" class="btn btn-outline-success">Report Issue</a>
+            </form>
+        </div>
+    </div>
+</nav>
+
+
+<div class="main-container">
+    @Body
+    </div>

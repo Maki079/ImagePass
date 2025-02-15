@@ -1,0 +1,222 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassfront\\imagepassfront\\pages\\imagepass.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|solutionrelative:pages\\imagepass.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassfront\\imagepassfront\\wwwroot\\js\\imagedownloader.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|solutionrelative:wwwroot\\js\\imagedownloader.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassfront\\imagepassfront\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|solutionrelative:pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassfront\\imagepassfront\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassfront\\imagepassfront\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassfront\\imagepassfront\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|solutionrelative:wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassfront\\imagepassfront\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|solutionrelative:layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassfront\\imagepassfront\\pages\\checker.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|solutionrelative:pages\\checker.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassfront\\imagepassfront\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|solutionrelative:wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassfront\\imagepassfront\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassfront\\imagepassfront\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassfront\\imagepassfront\\wwwroot\\css\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{56684E85-CC9F-4870-83D7-C77D768DEA56}|ImagePassFront.csproj|solutionrelative:wwwroot\\css\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 251,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\bootstrap\\bootstrap.min.css",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+              "RelativeToolTip": "wwwroot\\css\\bootstrap\\bootstrap.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-05T17:00:27.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "imageDownloader.js",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\wwwroot\\js\\imageDownloader.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\imageDownloader.js",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\wwwroot\\js\\imageDownloader.js",
+              "RelativeToolTip": "wwwroot\\js\\imageDownloader.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-06-17T22:28:34.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:55:26.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-17T20:47:33.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\wwwroot\\appsettings.json",
+              "RelativeDocumentMoniker": "wwwroot\\appsettings.json",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\wwwroot\\appsettings.json",
+              "RelativeToolTip": "wwwroot\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-22T19:42:14.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Checker.razor",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\Pages\\Checker.razor",
+              "RelativeDocumentMoniker": "Pages\\Checker.razor",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\Pages\\Checker.razor",
+              "RelativeToolTip": "Pages\\Checker.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T21:00:55.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ImagePass.razor",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\Pages\\ImagePass.razor",
+              "RelativeDocumentMoniker": "Pages\\ImagePass.razor",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\Pages\\ImagePass.razor",
+              "RelativeToolTip": "Pages\\ImagePass.razor",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAN4AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T16:52:28.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\App.razor",
+              "RelativeToolTip": "App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T16:52:21.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-04-11T16:49:11.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T16:27:38.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\Pages\\Home.razor",
+              "RelativeToolTip": "Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T16:22:02.17Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 148,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassFront\\ImagePassFront\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "wwwroot\\css\\app.css",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAAAF4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-11T16:36:14.473Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

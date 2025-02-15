@@ -1,0 +1,286 @@
+@page "/imagepass"
+@using System.Text.Json
+@using System.Text
+@using System.Text.Json.Serialization
+@using static ImagePassFront.Pages.Checker
+@inject HttpClient Http
+@inject IConfiguration Configuration
+@inject IJSRuntime JSRuntime
+
+<h3 class="align-center">ImagePass genarator</h3>
+
+<div class="form-container">
+@if (startForm)
+{
+        <div class="start-buttons">
+
+            <input @bind="userInput" placeholder="Enter sentence by yourself!" />
+
+            <button class="bnt-generate" @onclick="() => FetchSentenceAsync()">
+                Generate sentence for me
+            </button>
+        
+        
+
+        <button class="bnt-generate" @onclick="() => GetImagesAsync()">
+            Generate ImagePass
+        </button>
+
+        </div>
+}
+</div>
+
+
+<div class="container">
+    <div class="row">
+        @foreach (var image in images)
+        {
+            <div class="col-md-6 mb-4">
+                <div class="image-container-wrapper">
+                    @if (image.IsFetching)
+                    {
+                        <div class="image-loading-spinner-cont">
+                            <div class="spinner-border image-spinner" role="status">
+                                <span class="visually-hidden">Loading image...</span>
+                            </div>
+                        </div>
+                    }
+                    else if (!String.IsNullOrEmpty(image.ImageBase64))
+                    {
+                        <img src="@($"data:image/png;base64,{image.ImageBase64}")" class="image-container" alt="Generated Image" />
+                        <button class="btn-download bnt-generate" @onclick="() => DownloadImageAsync(image)">Download</button>
+                    }
+                    else
+                    {
+                        <p>Image failed to load.</p>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<div class="after-gen-container">
+    @if (IsImagePassGenerated() || !firstRender)
+    {
+        <p>Passowrd generated for this sentence :
+            @userInput is @generatedPassword
+        </p>
+        <button class="bnt-generate" @onclick="() => FetchPasswordAsync()">
+            Regenerate password  
+            </button>
+        <button class="bnt-generate" @onclick="() => GetImagesAsync()">
+            Regenerate Images
+        </button>
+        <button class="bnt-generate" @onclick="() => Reset()">
+            Start from scratch
+        </button>
+    }
+</div>
+
+@code {
+    private string generatedSentence = String.Empty;
+    private string generatedPassword = String.Empty;
+    private bool showUserInput = true;
+    private string userInput = String.Empty;
+    private List<ImageData> images = new List<ImageData>();
+    private string apiUrl = String.Empty;
+    private const int MaxRetries = 500  ;
+    private const int PollingInterval = 1000;
+    private bool startForm;
+    private bool firstRender = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        apiUrl = Configuration["ApiSettings:ImagePassBaseUrl"];
+        startForm = true;
+    }
+
+    private void ToggleUserInput()
+    {
+        showUserInput = !showUserInput;
+    }
+    private bool IsUserInputValid()
+    {
+        return !string.IsNullOrEmpty(userInput);
+    }
+    private bool IsImagePassGenerated()
+    {
+        if (images == null || images.Count == 0)
+        {
+            return false;
+        }
+
+        return images.All(i => !String.IsNullOrEmpty(i.ImageBase64));
+    }
+    private void Reset()
+    {
+        startForm = true;
+        firstRender = true;
+        images = new List<ImageData>();
+        generatedSentence = String.Empty;
+        generatedPassword = String.Empty;
+        userInput = String.Empty;
+    }
+
+    private async Task GetImagesAsync()
+    {   
+        startForm = false;
+        generatedSentence = String.Empty;
+
+        images = Enumerable.Range(0, 4).Select(_ => new ImageData { IsFetching = true }).ToList();
+        StateHasChanged();
+
+        var content = new StringContent(JsonSerializer.Serialize(userInput), Encoding.UTF8, "application/json");
+
+        for (int i = 0; i < images.Count; i++)
+        {
+            int index = i; // Capture loop variable correctly
+            _ = Task.Run(async () => await FetchImageAsync(content, index));
+        }
+
+        if (firstRender)
+        {
+            await FetchPasswordAsync();
+            firstRender = false;
+        }
+        
+    }
+
+
+    private async Task FetchImageAsync(StringContent content, int index)
+    {
+        try
+        {
+            var response = await Http.PostAsync($"{apiUrl}/api/ImageGeneration", content);
+
+            if (response.StatusCode == System.Net.HttpStatusCode.Accepted)
+            {
+                var responseContent = await response.Content.ReadAsStringAsync();
+                var imageResponse = JsonSerializer.Deserialize<ImageResponse>(responseContent);
+
+                if (imageResponse != null && !string.IsNullOrEmpty(imageResponse.imageId))
+                {
+                    await PollForImageAsync(imageResponse.imageId, index);
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching image: {ex.Message}");
+            images[index].IsFetching = false;
+            StateHasChanged();
+        }
+    }
+
+    private async Task PollForImageAsync(string imageId, int index)
+    {
+        int retryCount = 0;
+        while (images[index].IsFetching && retryCount < MaxRetries)
+        {
+            await Task.Delay(PollingInterval);
+
+            try
+            {
+                var response = await Http.GetAsync($"{apiUrl}/api/ImageGeneration/{imageId}");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var responseContent = await response.Content.ReadAsStringAsync();
+                    var imageResult = JsonSerializer.Deserialize<ImageResponse>(responseContent);
+
+                    if (imageResult?.isImageGenerated == true && !string.IsNullOrEmpty(imageResult.imageEncodedInBase64))
+                    {
+                        images[index].ImageBase64 = imageResult.imageEncodedInBase64;
+                        images[index].ImageId = imageId;
+                        images[index].IsFetching = false;
+                        StateHasChanged();
+                    }
+                }
+                else if (response.StatusCode != System.Net.HttpStatusCode.Accepted)
+                {
+                    images[index].IsFetching = false;
+                    StateHasChanged();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error polling image: {ex.Message}");
+                images[index].IsFetching = false;
+                StateHasChanged();
+            }
+
+            retryCount++;
+        }
+
+        if (retryCount >= MaxRetries)
+        {
+            images[index].IsFetching = false;
+            StateHasChanged();
+        }
+    }
+    private async Task DownloadImageAsync(ImageData image)
+    {
+        var imageBlobUrl = $"data:image/png;base64,{image.ImageBase64}";
+        await JSRuntime.InvokeVoidAsync("downloadImage", imageBlobUrl, image.ImageId+".png");
+    }
+
+    private async Task FetchSentenceAsync()
+    {
+        try
+        {
+            var response = await Http.GetAsync($"{apiUrl}/api/SentesnseGeneration");
+
+            if (response.IsSuccessStatusCode)
+            {
+                var responseContent = await response.Content.ReadAsStringAsync();
+                generatedSentence = responseContent;
+                userInput = generatedSentence;
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching sentence: {ex.Message}");
+        }
+
+
+    }
+    private async Task FetchPasswordAsync()
+    {
+        try
+        {
+            var content = new StringContent(JsonSerializer.Serialize(userInput), Encoding.UTF8, "application/json");
+            var response = await Http.PostAsync($"{apiUrl}/api/PasswordGeneration", content);
+
+            if (response.IsSuccessStatusCode)
+            {
+                var responseContent = await response.Content.ReadAsStringAsync();
+                generatedPassword = responseContent;
+            }
+
+
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching password: {ex.Message}");
+        }
+    }
+
+    public class ImageResponse
+    {
+        [JsonPropertyName("imageId")]
+        public string imageId { get; set; }
+
+        [JsonPropertyName("imageEncodedInBase64")]
+        public string imageEncodedInBase64 { get; set; }
+
+        [JsonPropertyName("isImageGenerated")]
+        public bool isImageGenerated { get; set; }
+    }
+
+    public class ImageData
+    {
+        public string ImageBase64 { get; set; }
+        public bool IsFetching { get; set; }
+        public string ImageId { get; set; }
+    }
+}

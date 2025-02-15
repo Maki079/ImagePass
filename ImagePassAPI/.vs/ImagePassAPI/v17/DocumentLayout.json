@@ -1,0 +1,364 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\imagepassapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\imagepassapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\repositories\\implementations\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\repositories\\implementations\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\repositories\\interfaces\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\repositories\\interfaces\\iimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\repositories\\implementations\\passwordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\repositories\\implementations\\passwordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\repositories\\implementations\\sentenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\repositories\\implementations\\sentenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\models\\imggen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\models\\imggen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\models\\sdapiresonse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\models\\sdapiresonse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\controllers\\checkercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\controllers\\checkercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\repositories\\implementations\\checkerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\repositories\\implementations\\checkerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\repositories\\interfaces\\icheckerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\repositories\\interfaces\\icheckerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\controllers\\passwordgenerationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\controllers\\passwordgenerationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\controllers\\imagegenerationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\controllers\\imagegenerationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\repositories\\interfaces\\isentenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\repositories\\interfaces\\isentenserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\controllers\\sentesnsegenerationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\controllers\\sentesnsegenerationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\models\\dtos\\sdapirequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\models\\dtos\\sdapirequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\models\\dtos\\imagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\models\\dtos\\imagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\repositories\\interfaces\\ipasswordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\repositories\\interfaces\\ipasswordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|c:\\users\\maki\\documents\\imagepass\\imagepassapi\\imagepassapi\\imagepassapi\\models\\dtos\\sentensedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F37D62F-31DD-4CBA-A2F6-1B8C7472D280}|ImagePassAPI\\ImagePassAPI.csproj|solutionrelative:imagepassapi\\models\\dtos\\sentensedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 88,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ISentenseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Repositories\\Interfaces\\ISentenseRepository.cs",
+              "RelativeDocumentMoniker": "ImagePassAPI\\Repositories\\Interfaces\\ISentenseRepository.cs",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Repositories\\Interfaces\\ISentenseRepository.cs",
+              "RelativeToolTip": "ImagePassAPI\\Repositories\\Interfaces\\ISentenseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T17:37:04.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ImagePassAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ImagePassAPI\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-12T19:34:50.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ImagePassAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI.csproj",
+              "RelativeDocumentMoniker": "ImagePassAPI\\ImagePassAPI.csproj",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI.csproj",
+              "RelativeToolTip": "ImagePassAPI\\ImagePassAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-12T19:34:37.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ImageGenerationController.cs",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Controllers\\ImageGenerationController.cs",
+              "RelativeDocumentMoniker": "ImagePassAPI\\Controllers\\ImageGenerationController.cs",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Controllers\\ImageGenerationController.cs",
+              "RelativeToolTip": "ImagePassAPI\\Controllers\\ImageGenerationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T13:12:48.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ImgGen.cs",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Models\\ImgGen.cs",
+              "RelativeDocumentMoniker": "ImagePassAPI\\Models\\ImgGen.cs",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Models\\ImgGen.cs",
+              "RelativeToolTip": "ImagePassAPI\\Models\\ImgGen.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T20:01:42.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SentesnseGenerationController.cs",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Controllers\\SentesnseGenerationController.cs",
+              "RelativeDocumentMoniker": "ImagePassAPI\\Controllers\\SentesnseGenerationController.cs",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Controllers\\SentesnseGenerationController.cs",
+              "RelativeToolTip": "ImagePassAPI\\Controllers\\SentesnseGenerationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T22:51:27.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ImagePassAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Program.cs",
+              "RelativeToolTip": "ImagePassAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-09-28T19:37:32.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ImagePassAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\appsettings.json",
+              "RelativeToolTip": "ImagePassAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2023-09-28T19:37:32.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PasswordGenerationController.cs",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Controllers\\PasswordGenerationController.cs",
+              "RelativeDocumentMoniker": "ImagePassAPI\\Controllers\\PasswordGenerationController.cs",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Controllers\\PasswordGenerationController.cs",
+              "RelativeToolTip": "ImagePassAPI\\Controllers\\PasswordGenerationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:15:42.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CheckerController.cs",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Controllers\\CheckerController.cs",
+              "RelativeDocumentMoniker": "ImagePassAPI\\Controllers\\CheckerController.cs",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Controllers\\CheckerController.cs",
+              "RelativeToolTip": "ImagePassAPI\\Controllers\\CheckerController.cs",
+              "ViewState": "AQIAAAcAAAAeAAAAAOAwwB0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-09-28T19:37:32.3Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 312,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CheckerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Repositories\\Implementations\\CheckerRepository.cs",
+              "RelativeDocumentMoniker": "ImagePassAPI\\Repositories\\Implementations\\CheckerRepository.cs",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Repositories\\Implementations\\CheckerRepository.cs",
+              "RelativeToolTip": "ImagePassAPI\\Repositories\\Implementations\\CheckerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T20:41:42.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICheckerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Repositories\\Interfaces\\ICheckerRepository.cs",
+              "RelativeDocumentMoniker": "ImagePassAPI\\Repositories\\Interfaces\\ICheckerRepository.cs",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Repositories\\Interfaces\\ICheckerRepository.cs",
+              "RelativeToolTip": "ImagePassAPI\\Repositories\\Interfaces\\ICheckerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T20:40:29.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PasswordRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Repositories\\Implementations\\PasswordRepository.cs",
+              "RelativeDocumentMoniker": "ImagePassAPI\\Repositories\\Implementations\\PasswordRepository.cs",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Repositories\\Implementations\\PasswordRepository.cs",
+              "RelativeToolTip": "ImagePassAPI\\Repositories\\Implementations\\PasswordRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:18:10.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IPasswordRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Repositories\\Interfaces\\IPasswordRepository.cs",
+              "RelativeDocumentMoniker": "ImagePassAPI\\Repositories\\Interfaces\\IPasswordRepository.cs",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Repositories\\Interfaces\\IPasswordRepository.cs",
+              "RelativeToolTip": "ImagePassAPI\\Repositories\\Interfaces\\IPasswordRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T18:17:42.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SentenseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Models\\DTOs\\SentenseDTO.cs",
+              "RelativeDocumentMoniker": "ImagePassAPI\\Models\\DTOs\\SentenseDTO.cs",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Models\\DTOs\\SentenseDTO.cs",
+              "RelativeToolTip": "ImagePassAPI\\Models\\DTOs\\SentenseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T23:54:59.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SentenseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Repositories\\Implementations\\SentenseRepository.cs",
+              "RelativeDocumentMoniker": "ImagePassAPI\\Repositories\\Implementations\\SentenseRepository.cs",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Repositories\\Implementations\\SentenseRepository.cs",
+              "RelativeToolTip": "ImagePassAPI\\Repositories\\Implementations\\SentenseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T23:01:16.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ImageDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Models\\DTOs\\ImageDTO.cs",
+              "RelativeDocumentMoniker": "ImagePassAPI\\Models\\DTOs\\ImageDTO.cs",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Models\\DTOs\\ImageDTO.cs",
+              "RelativeToolTip": "ImagePassAPI\\Models\\DTOs\\ImageDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T19:40:48.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Repositories\\Interfaces\\IImageRepository.cs",
+              "RelativeDocumentMoniker": "ImagePassAPI\\Repositories\\Interfaces\\IImageRepository.cs",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Repositories\\Interfaces\\IImageRepository.cs",
+              "RelativeToolTip": "ImagePassAPI\\Repositories\\Interfaces\\IImageRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T19:39:55.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SDApiRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Models\\DTOs\\SDApiRequestDTO.cs",
+              "RelativeDocumentMoniker": "ImagePassAPI\\Models\\DTOs\\SDApiRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Models\\DTOs\\SDApiRequestDTO.cs",
+              "RelativeToolTip": "ImagePassAPI\\Models\\DTOs\\SDApiRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T17:53:29.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SDApiResonse.cs",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Models\\SDApiResonse.cs",
+              "RelativeDocumentMoniker": "ImagePassAPI\\Models\\SDApiResonse.cs",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Models\\SDApiResonse.cs",
+              "RelativeToolTip": "ImagePassAPI\\Models\\SDApiResonse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-22T20:28:48.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ImageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Repositories\\Implementations\\ImageRepository.cs",
+              "RelativeDocumentMoniker": "ImagePassAPI\\Repositories\\Implementations\\ImageRepository.cs",
+              "ToolTip": "C:\\Users\\Maki\\Documents\\ImagePass\\ImagePassAPI\\ImagePassAPI\\ImagePassAPI\\Repositories\\Implementations\\ImageRepository.cs",
+              "RelativeToolTip": "ImagePassAPI\\Repositories\\Implementations\\ImageRepository.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAuwHEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T13:56:31.61Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
